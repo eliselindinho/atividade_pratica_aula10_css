@@ -1,0 +1,28 @@
+/*Bloco*/
+.menu-principal {
+  background-color: white;
+  display: inline-block;
+  margin: 0 25px;
+}
+
+/*Elemento*/
+
+.menu-principal__home {
+  color: blue;
+}
+
+.menu-principal__acesso-restrito {
+  color: crimson;
+}
+
+.menu-principal__acesso-restrito--disabled {
+  color: rosybrown;
+  cursor: not-allowed;
+}
+
+.menu-principal__login {
+  color: green;
+  border-style: solid;
+  border-color: rgb(102, 182, 196);
+  background-color: rgb(102, 182, 196);
+}
